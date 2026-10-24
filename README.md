@@ -1,90 +1,65 @@
-# لوحة تحليل المبيعات | Sales Dashboard
+# Sales Dashboard | Excel Sales Analysis
 
-مشروع ضمن ملف أعمالي في تحليل البيانات، يركّز على استكشاف أداء المبيعات وعرض المؤشرات بصورة تساعد على فهم النتائج والإجابة عن أسئلة العمل.
+An Excel-based sales analytics project designed to explore sales performance and present business information in a dashboard. The repository includes a dashboard workbook and separate Excel files for sales and related business dimensions.
 
-> **ملاحظة:** يحتوي المستودع حاليًا على ملف README فقط؛ لم تُرفع بعد ملفات Excel أو Power BI، لذلك يوضّح هذا الملف هدف المشروع ونطاق التحليل المقصود دون الادعاء بأن لوحة البيانات أو نتائجها متاحة بالفعل.
+## Project Overview
 
-## 🎯 هدف المشروع
+The project focuses on exploring sales performance and making the data easier to review through a dashboard.
 
-تنظيم بيانات المبيعات وتحليلها وتحويلها إلى معلومات واضحة يمكن الاستفادة منها في تقييم الأداء ودعم اتخاذ القرار.
+Questions this analysis is intended to help answer include:
 
-## ❓ أسئلة العمل التي يستهدفها التحليل
+- Which branch generates the highest sales?
+- Which branch generates the highest profit, where profit data is available?
+- How do sales performance and results compare across branches?
+- How are transactions distributed across payment methods?
+- What patterns can be explored across sales, customers, products, brands, and branches?
 
-- ما الفرع الذي يحقق أعلى حجم مبيعات؟
-- ما الفرع الذي يحقق أعلى ربح؟
-- كيف تختلف المبيعات والأرباح بين الفروع؟
-- ما طرق الدفع الأكثر استخدامًا؟
-- ما الأنماط أو الاتجاهات التي يمكن ملاحظتها في بيانات المبيعات؟
+These are analysis questions, not published numerical findings. Specific conclusions should be added only after validating the results in the workbook.
 
-هذه أسئلة التحليل المستهدفة، وليست نتائج فعلية؛ إذ لم تُنشر ملفات البيانات أو لوحة النتائج في المستودع حتى الآن.
+## Tools
 
-## 🧰 الأدوات والتقنيات
+- **Microsoft Excel** — workbook-based analysis and dashboarding.
+- **Power Query** — for data preparation and transformation, where applied in the workbook.
+- **PivotTables / PivotCharts** — for summarizing and presenting data, where included.
+- **Power Pivot / Data Model** — for working with related tables and measures, where included.
 
-- **Microsoft Excel:** لتنظيم البيانات وتحليلها وعرض النتائج.
-- **Power Query:** لتنظيف البيانات وتحويلها وتجهيزها للتحليل، عند استخدامه في ملف المشروع.
-- **PivotTables وPivotCharts:** لتلخيص البيانات واستكشاف المؤشرات، عند تضمينها في المصنف.
-- **Power Pivot:** لبناء نموذج بيانات ومقاييس عند الحاجة.
-- **Power BI:** لإنشاء تقارير ولوحات تفاعلية إذا أُضيف ملف Power BI إلى المستودع.
+**Note:** This repository currently contains Excel (`.xlsx`) files. A Power BI report (`.pbix`) is not currently listed in the repository.
 
-سيتم توثيق الأدوات المستخدمة فعليًا بعد رفع ملفات المشروع النهائية.
+## Repository Contents
 
-## 📊 نطاق التحليل
+| File | Description |
+|---|---|
+| [`Dashboard Salesxlsx.xlsx`](./Dashboard%20Salesxlsx.xlsx) | Main sales dashboard workbook |
+| [`Sales 2023.xlsx`](./Sales%202023.xlsx) | Sales data file for 2023 |
+| [`Sales 2024.xlsx`](./Sales%202024.xlsx) | Sales data file for 2024 |
+| [`Branches.xlsx`](./Branches.xlsx) | Branch reference data |
+| [`Brands.xlsx`](./Brands.xlsx) | Brand reference data |
+| [`Customers.xlsx`](./Customers.xlsx) | Customer reference data |
+| [`Products.xlsx`](./Products.xlsx) | Product reference data |
+| [`PaymentMethods.xlsx`](./PaymentMethods.xlsx) | Payment-method reference data |
 
-من المخطط أن يتناول التحليل الجوانب التالية بحسب الحقول المتاحة في البيانات:
+## Analysis Scope
 
-1. مقارنة أداء المبيعات بين الفروع.
-2. مقارنة الأرباح بين الفروع، إذا كانت بيانات الربح متوفرة.
-3. تحليل توزيع طرق الدفع.
-4. عرض المؤشرات والنتائج بصريًا لتسهيل المقارنة.
+The available files indicate that the project brings together sales data and related information about branches, brands, customers, products, and payment methods. The dashboard is intended to support comparisons across these dimensions.
 
-## 📁 ملفات المشروع
+## How to Use
 
-المحتوى المنشور حاليًا:
+1. Open [`Dashboard Salesxlsx.xlsx`](./Dashboard%20Salesxlsx.xlsx) in Microsoft Excel.
+2. Explore the dashboard and available report elements in the workbook.
+3. If you want to review the supporting data, open the relevant sales or reference workbook listed above.
+4. If the workbook uses queries or a data model, refresh the data only after confirming that the source files are available at the expected locations.
 
-```text
-sales_dashboard/
-└── README.md
-```
+## Power BI
 
-بعد إضافة الملفات الفعلية، يمكن أن يصبح التنظيم مثل المثال التالي:
+No `.pbix` report is currently present in the repository. If a Power BI version is created later, add the report file and update this section with its visuals, measures, and usage instructions.
 
-```text
-sales_dashboard/
-├── README.md
-├── Sales_Dashboard.xlsx       # عند إضافته
-├── Sales_Dashboard.pbix       # اختياري، عند إنشاء تقرير Power BI
-└── screenshots/
-    └── dashboard-preview.png # اختياري، صورة من اللوحة الفعلية
-```
-
-## 🚀 طريقة استكشاف المشروع
-
-### إذا توفّر ملف Excel
-
-1. نزّل ملف Excel من المستودع بعد إضافته.
-2. افتحه باستخدام Microsoft Excel.
-3. استكشف الجداول والملخصات والرسوم المتاحة في المصنف.
-
-### إذا توفّر ملف Power BI
-
-1. نزّل ملف `.pbix` بعد إضافته.
-2. افتحه باستخدام Power BI Desktop.
-3. استخدم المرشحات والعناصر التفاعلية المتاحة في التقرير.
-
-## 👨‍💻 عن صاحب المشروع
+## About the Author
 
 **Islam Ahmed Kamel**  
-متعلم تحليل البيانات ومطوّر Flutter.
+Data Analytics Learner | Flutter Developer
 
-أعمل على تطوير مهاراتي في تجهيز البيانات وتحليلها وعرضها بصريًا، بهدف تحويل البيانات إلى رؤى مفيدة للأعمال.
-
-## 📌 الخطوات القادمة
-
-- رفع ملفات البيانات أو المصنف النهائي.
-- إضافة صور فعلية للوحة التحليل.
-- توثيق خطوات تنظيف البيانات ونموذج البيانات والمقاييس المستخدمة بعد التأكد منها.
-- تحديث هذا الملف بالنتائج النهائية بعد اكتمال المشروع.
+This project is part of my data analytics portfolio and learning journey, focused on preparing data, exploring business questions, and communicating findings through clear visual reports.
 
 ---
 
-للاطلاع على المشروع ومتابعة تحديثاته، تفضّل بزيارة [المستودع على GitHub](https://github.com/IslamAhmedKamel/sales_dashboard).
+[View the project repository on GitHub](https://github.com/IslamAhmedKamel/sales_dashboard)
