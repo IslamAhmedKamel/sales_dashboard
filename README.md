@@ -1,72 +1,90 @@
-# Sales Dashboard | Sales Performance Analysis
+# لوحة تحليل المبيعات | Sales Dashboard
 
-A data analytics portfolio project focused on exploring sales performance and turning raw sales data into clear, business-oriented insights.
+مشروع ضمن ملف أعمالي في تحليل البيانات، يركّز على استكشاف أداء المبيعات وعرض المؤشرات بصورة تساعد على فهم النتائج والإجابة عن أسئلة العمل.
 
-## Business Questions
+> **ملاحظة:** يحتوي المستودع حاليًا على ملف README فقط؛ لم تُرفع بعد ملفات Excel أو Power BI، لذلك يوضّح هذا الملف هدف المشروع ونطاق التحليل المقصود دون الادعاء بأن لوحة البيانات أو نتائجها متاحة بالفعل.
 
-This dashboard is designed to help explore questions such as:
+## 🎯 هدف المشروع
 
-- Which branch generates the highest sales?
-- Which branch contributes the most profit?
-- How do sales and profit compare across branches?
-- Which payment methods are used most frequently?
-- What patterns can be identified in the available sales data?
+تنظيم بيانات المبيعات وتحليلها وتحويلها إلى معلومات واضحة يمكن الاستفادة منها في تقييم الأداء ودعم اتخاذ القرار.
 
-## Tools & Techniques
+## ❓ أسئلة العمل التي يستهدفها التحليل
 
-- **Microsoft Excel** — data analysis and reporting.
-- **Power Query** — data cleaning and transformation.
-- **PivotTables / PivotCharts** — summarizing and visualizing sales data.
-- **Power Pivot** — data modeling and measures, if included in the final workbook.
-- **Power BI** — can be used for a separate interactive report if a `.pbix` file is added.
+- ما الفرع الذي يحقق أعلى حجم مبيعات؟
+- ما الفرع الذي يحقق أعلى ربح؟
+- كيف تختلف المبيعات والأرباح بين الفروع؟
+- ما طرق الدفع الأكثر استخدامًا؟
+- ما الأنماط أو الاتجاهات التي يمكن ملاحظتها في بيانات المبيعات؟
 
-> The final tool list should match the techniques and files included in the published project.
+هذه أسئلة التحليل المستهدفة، وليست نتائج فعلية؛ إذ لم تُنشر ملفات البيانات أو لوحة النتائج في المستودع حتى الآن.
 
-## Analysis Scope
+## 🧰 الأدوات والتقنيات
 
-The planned analysis focuses on:
+- **Microsoft Excel:** لتنظيم البيانات وتحليلها وعرض النتائج.
+- **Power Query:** لتنظيف البيانات وتحويلها وتجهيزها للتحليل، عند استخدامه في ملف المشروع.
+- **PivotTables وPivotCharts:** لتلخيص البيانات واستكشاف المؤشرات، عند تضمينها في المصنف.
+- **Power Pivot:** لبناء نموذج بيانات ومقاييس عند الحاجة.
+- **Power BI:** لإنشاء تقارير ولوحات تفاعلية إذا أُضيف ملف Power BI إلى المستودع.
 
-- Comparing sales performance by branch.
-- Comparing branch profitability.
-- Exploring the distribution of payment methods.
-- Presenting the results in a clear dashboard to support business decisions.
+سيتم توثيق الأدوات المستخدمة فعليًا بعد رفع ملفات المشروع النهائية.
 
-## Project Files
+## 📊 نطاق التحليل
 
-The repository currently contains this README. Add the final Excel workbook (`.xlsx`) and, if applicable, the Power BI report (`.pbix`) and dashboard screenshots so visitors can review the analysis.
+من المخطط أن يتناول التحليل الجوانب التالية بحسب الحقول المتاحة في البيانات:
 
-Suggested structure:
+1. مقارنة أداء المبيعات بين الفروع.
+2. مقارنة الأرباح بين الفروع، إذا كانت بيانات الربح متوفرة.
+3. تحليل توزيع طرق الدفع.
+4. عرض المؤشرات والنتائج بصريًا لتسهيل المقارنة.
+
+## 📁 ملفات المشروع
+
+المحتوى المنشور حاليًا:
+
+```text
+sales_dashboard/
+└── README.md
+```
+
+بعد إضافة الملفات الفعلية، يمكن أن يصبح التنظيم مثل المثال التالي:
 
 ```text
 sales_dashboard/
 ├── README.md
-├── Sales_Dashboard.xlsx
-├── Sales_Dashboard.pbix        # Optional, if a Power BI report is created
+├── Sales_Dashboard.xlsx       # عند إضافته
+├── Sales_Dashboard.pbix       # اختياري، عند إنشاء تقرير Power BI
 └── screenshots/
-    └── dashboard-preview.png
+    └── dashboard-preview.png # اختياري، صورة من اللوحة الفعلية
 ```
 
-## How to Use
+## 🚀 طريقة استكشاف المشروع
 
-### Excel
+### إذا توفّر ملف Excel
 
-1. Download the Excel workbook once it has been added to the repository.
-2. Open it in Microsoft Excel.
-3. Use the dashboard filters and available charts or PivotTables to explore sales performance.
+1. نزّل ملف Excel من المستودع بعد إضافته.
+2. افتحه باستخدام Microsoft Excel.
+3. استكشف الجداول والملخصات والرسوم المتاحة في المصنف.
 
-### Power BI (if included)
+### إذا توفّر ملف Power BI
 
-1. Download the `.pbix` file.
-2. Open it in Power BI Desktop.
-3. Interact with the report visuals and filters.
+1. نزّل ملف `.pbix` بعد إضافته.
+2. افتحه باستخدام Power BI Desktop.
+3. استخدم المرشحات والعناصر التفاعلية المتاحة في التقرير.
 
-## About the Author
+## 👨‍💻 عن صاحب المشروع
 
 **Islam Ahmed Kamel**  
-Data Analytics Learner | Flutter Developer
+متعلم تحليل البيانات ومطوّر Flutter.
 
-This project is part of my Data Analytics portfolio and learning journey, with a focus on data preparation, analysis, visualization, and communicating business insights.
+أعمل على تطوير مهاراتي في تجهيز البيانات وتحليلها وعرضها بصريًا، بهدف تحويل البيانات إلى رؤى مفيدة للأعمال.
+
+## 📌 الخطوات القادمة
+
+- رفع ملفات البيانات أو المصنف النهائي.
+- إضافة صور فعلية للوحة التحليل.
+- توثيق خطوات تنظيف البيانات ونموذج البيانات والمقاييس المستخدمة بعد التأكد منها.
+- تحديث هذا الملف بالنتائج النهائية بعد اكتمال المشروع.
 
 ---
 
-Feedback and suggestions are welcome. Feel free to connect through GitHub.
+للاطلاع على المشروع ومتابعة تحديثاته، تفضّل بزيارة [المستودع على GitHub](https://github.com/IslamAhmedKamel/sales_dashboard).
