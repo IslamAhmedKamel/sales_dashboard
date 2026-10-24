@@ -21,7 +21,9 @@
 ## 🧰 الأداة المستخدمة
 
 - **Microsoft Excel** — لفتح ملفات البيانات ومصنف لوحة المعلومات واستكشاف النتائج.
- ##🖼️ صور المشروع
+
+## 🖼️ صور المشروع
+
 <img width="752" height="536" alt="Picture1" src="https://github.com/user-attachments/assets/ad0c8ad3-0387-453f-aa60-5b2a670ca0d1" />
 
 ## 📁 ملفات المشروع
